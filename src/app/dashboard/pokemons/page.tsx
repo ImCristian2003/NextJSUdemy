@@ -1,4 +1,5 @@
 import { PokemonsResponse, SimplePokemon } from "@/app/pokemons";
+import { PokemonGrid } from "@/app/pokemons/components/PokemonGrid";
 import Image from "next/image";
 
 const getPokemons = async (
@@ -23,6 +24,7 @@ export default async function PokemonsPage() {
   return (
     <div className="flex flex-col gap-3">
       <h1>Static</h1>
+      <PokemonGrid pokemons={pokemons} />
     </div>
   );
 }

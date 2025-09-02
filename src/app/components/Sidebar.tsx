@@ -39,7 +39,7 @@ export const Sidebar = () => {
       <div id="logo" className="my-4 px-6">
         <h1 className="text-lg md:text-2xl font-bold text-white">
           <IoLogoReact className="inline text-blue-500 mr-2" size={32} />
-          <span>Dashboard Next</span>
+          <span>Dashboard NextJS</span>
           <span className="text-blue-500">8</span>.
         </h1>
         <p className="text-slate-500 text-sm">
